@@ -1,0 +1,22 @@
+{
+  "title": "Nova Documentation",
+  "description": "Documentation for Nova trading bot",
+  "author": "Nova Team",
+  "language": "en",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "search",
+    "theme-default",
+    "expandable-chapters",
+    "copy-code-button",
+    "heading-anchors"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": false
+    }
+  }
+} 
