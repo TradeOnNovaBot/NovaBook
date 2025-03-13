@@ -1,6 +1,6 @@
 {
   "title": "Nova Documentation",
-  "description": "Documentation for Nova trading bot",
+  "description": "Documentation for Nova trading bot - The Fastest All-In-One Trading Platform on Solana",
   "author": "Nova Team",
   "language": "en",
   "structure": {
@@ -12,11 +12,30 @@
     "theme-default",
     "expandable-chapters",
     "copy-code-button",
-    "heading-anchors"
+    "heading-anchors",
+    "tabs",
+    "hints",
+    "back-to-top-button",
+    "code",
+    "custom-favicon",
+    "flexible-alerts",
+    "page-toc",
+    "insert-logo"
   ],
   "pluginsConfig": {
     "theme-default": {
       "showLevel": false
-    }
+    },
+    "styles": {
+      "website": "styles.css"
+    },
+    "insert-logo": {
+      "url": "https://i.imgur.com/XYZ123.png",
+      "style": "background: none; max-height: 40px; min-height: 40px"
+    },
+    "favicon": "assets/favicon.ico"
+  },
+  "variables": {
+    "themeNovaColor": "#8a2be2"
   }
 } 

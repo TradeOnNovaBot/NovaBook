@@ -1,0 +1,167 @@
+/* Nova Documentation Custom Styles */
+
+/* Global Styles */
+:root {
+  --nova-primary: #8a2be2;
+  --nova-secondary: #6a0dad;
+  --nova-dark: #1e1e1e;
+  --nova-light: #ffffff;
+  --nova-accent: #b19cd9;
+}
+
+body {
+  background-color: var(--nova-dark);
+  color: var(--nova-light);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--nova-light);
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 1px solid var(--nova-primary);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: var(--nova-primary);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--nova-accent);
+}
+
+/* Links */
+a {
+  color: var(--nova-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--nova-accent);
+  text-decoration: underline;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--nova-primary);
+  padding-left: 1em;
+  color: var(--nova-accent);
+  font-style: italic;
+  background-color: rgba(138, 43, 226, 0.1);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+/* Code Blocks */
+pre, code {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  border-radius: 3px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: var(--nova-secondary);
+  color: var(--nova-light);
+}
+
+td, th {
+  border: 1px solid #444;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #2d2d2d;
+}
+
+/* Buttons */
+.markdown-section a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--nova-primary);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.markdown-section a.button:hover {
+  background-color: var(--nova-secondary);
+  text-decoration: none;
+}
+
+/* Navigation Sidebar */
+.book-summary {
+  background-color: var(--nova-dark);
+  border-right: 1px solid #333;
+}
+
+.book-summary ul.summary li a {
+  color: var(--nova-light);
+}
+
+.book-summary ul.summary li.active > a {
+  color: var(--nova-primary);
+  font-weight: bold;
+}
+
+/* Section Headers in Sidebar */
+.book-summary ul.summary li span {
+  color: var(--nova-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 10px 15px;
+  display: block;
+}
+
+/* Tabs */
+.nav-tabs {
+  border-bottom: 1px solid var(--nova-primary);
+}
+
+.nav-tabs > li.active > a {
+  background-color: var(--nova-primary);
+  color: white;
+  border: none;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: var(--nova-secondary);
+  color: white;
+}
+
+/* Custom Classes */
+.nova-card {
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--nova-primary);
+}
+
+.nova-highlight {
+  background-color: rgba(138, 43, 226, 0.2);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* Hero Image */
+.hero-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 20px 0;
+} 
